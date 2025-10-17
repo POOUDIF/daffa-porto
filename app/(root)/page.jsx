@@ -54,7 +54,7 @@ const MyPage = () => {
 												width={500}
 												height={500}
 												className="rounded-full w-full h-full object-cover "
-												alt="Alvalens"
+												alt="Daffa's"
 												placeholder="blur"
 											/>
 										</div>
@@ -67,7 +67,7 @@ const MyPage = () => {
 											delay: 0.2,
 											type: "spring",
 										}}>
-										Alvalen Shafel
+										Daffa Febrian Saputra
 									</motion.h3>
 									<motion.h1
 										className="text-black text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold my-2 md:my-5"
@@ -87,11 +87,7 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-										Hi! I&rsquo;am Alvalen, A junior fullstack developer specializing in
-										modern Web Development with a growing focus on Artificial
-										Intelligence. Passionate about building scalable,
-										user-friendly web applications and exploring AI technologies
-										such as generative models and LLM integration.
+										Hi! I&rsquo;am Daffa, A recent Informatics graduate from President University with a strong passion for backend development and cloud computing. Proficient in building and deploying scalable solutions using frameworks like Flask, Laravel, Java, and Node.js on Google Cloud Platform (GCP). I am eager to apply my skills and grow as a Full-Stack Developer in a dynamic and challenging tech environment.
 									</motion.p>
 									<motion.div
 										className="buttons flex flex-row justify-center items-center space-x-4 mt-10"

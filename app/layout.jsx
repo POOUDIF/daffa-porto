@@ -9,16 +9,16 @@ import Chat from "@/components/Chat";
 import ClientTopProgressBar from "@/components/ClientTopProgressBar";
 
 export const metadata = {
-    title: "Alvalens | Portofolio",
+	title: "daffa's | Portofolio",
 
-    description:
-		"My name is Alvalens, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
+	description:
+		"My name is Daffa, I'm a Full stack developer and I'm passionate about it. I'm graduate from President University .",
 
-    author: "Alvalen Shafelbilyunazra",
-    siteUrl: "https://www.alvalens.my.id",
-    applicationName: "Alvalens",
+	author: "Daffa Febrian Saputra",
+	siteUrl: "https://www.daffa.id",
+	applicationName: "Daffa's",
 
-    keywords: [
+	keywords: [
 		"alvalens",
 		"alvalen",
 		"alvalen shafel",
@@ -30,21 +30,21 @@ export const metadata = {
 		"alvalen um",
 	],
 
-    openGraph: {
+	openGraph: {
 		type: "website",
 		url: "https://www.alvalens.my.id",
-		title: "Alvalens | Portofolio",
-		site_name: "Alvalens | Portofolio",
-		description: "My name is Alvalens, This is my portofolio website.",
+		title: "Daffa's | Portofolio",
+		site_name: "Daffa's | Portofolio",
+		description: "My name is Daffa, This is my portofolio website.",
 		width: 1200,
 		height: 630,
 		images: [
 			{
 				url: "/og-image-rev.png",
-				alt: "Alvalens Portofolio",
+				alt: "Daffa Portofolio",
 			},
 		],
-		site_name: "Alvalens | Portofolio",
+		site_name: "Daffa's | Portofolio",
 	}
 };
 
