@@ -1,5 +1,5 @@
 // Copyright (C) 2025 Alvalen Bilyunazra
-// This file is part of Alvalens-porto-2-nextJs.
+// This file is part of Daffa's-porto-2-nextJs.
 // Licensed under the GNU GPL v3.0. See LICENSE for details.
 
 "use client";
@@ -125,7 +125,7 @@ const MyPage = () => {
 											width={400}
 											height={550}
 											placeholder="blur"
-											alt="Alvalens"
+											alt="Daffa"
 											className="rounded-full w-full h-full object-cover"
 										/>
 									</div>
@@ -157,7 +157,7 @@ const MyPage = () => {
 											src={MeAbout}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens"
+											alt="Daffa's"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -223,7 +223,7 @@ const MyPage = () => {
 											src={ProjectAll}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens Setup"
+											alt="Daffa's Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -293,7 +293,7 @@ const MyPage = () => {
 											src={Setup}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens Setup"
+											alt="Daffa's Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -331,14 +331,14 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										<a href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,">
-											alvalen.shafel04@gmail.com
+										<a href="mailto:daffafebriansaputra101@gmail.com?subject=Hello&body=Hello Daffa,">
+											daffafebriansaputra101@gmail.com
 										</a>
 									</motion.p>
 									{/* icons */}
 									<div className="flex justify-center items-center space-x-4">
 										<motion.a
-											href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,"
+											href="mailto:daffafebriansaputra101@gmail.com?subject=Hello&body=Hello Daffa,"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
 											initial={{ y: 40, opacity: 0 }}
 											whileInView={{ y: 0, opacity: 1 }}
@@ -350,7 +350,7 @@ const MyPage = () => {
 										</motion.a>
 
 										<motion.a
-											href="https://github.com/Alvalens"
+											href="https://github.com/POOUDIF"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -363,7 +363,7 @@ const MyPage = () => {
 											<FontAwesomeIcon icon={faGithub} className="text-3xl" />
 										</motion.a>
 										<motion.a
-											href="https://www.instagram.com/alvalens_/"
+											href="https://www.instagram.com/daffa.saputra69/"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -379,7 +379,7 @@ const MyPage = () => {
 											/>
 										</motion.a>
 										<motion.a
-											href="https://www.linkedin.com/in/alvalen-shafel-8a081a254/"
+											href="https://www.linkedin.com/in/daffafebrians/"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -391,7 +391,7 @@ const MyPage = () => {
 											}}>
 											<FontAwesomeIcon icon={faLinkedin} className="text-3xl" />
 										</motion.a>
-										<motion.a
+										{/* <motion.a
 											href="https://discordapp.com/users/bloody#6118"
 											target="_blank"
 											rel="noopener noreferrer"
@@ -403,7 +403,7 @@ const MyPage = () => {
 												opacity: { delay: 0.6 },
 											}}>
 											<FontAwesomeIcon icon={faDiscord} className="text-3xl" />
-										</motion.a>
+										</motion.a> */}
 									</div>
 								</div>
 							</div>

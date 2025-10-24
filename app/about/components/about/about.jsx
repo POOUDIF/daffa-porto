@@ -108,36 +108,30 @@ export default function About() {
 						type: "spring",
 					}}>
 					<h2 className="text-2xl font-bold tracking-wider mb-3">
-						Alvalen Shafelbilyunazra
+						Daffa Febrian Saputra
 					</h2>
 					<p className="text-gray-600 text-justify title text-lg">
-						Hey there, I&rsquo;m Alvalen Shafelbilyunazra, a
+						Hey there, I&rsquo;m Daffa Febrian Saputra, a
 						<span className="text-black font-medium">
 							{" "}
-							passionate Web Developer
+							Software Engineer
 						</span>{" "}
-						with a growing expertise in
+						with a strong passion for
 						<span className="text-black font-medium">
 							{" "}
-							Artificial Intelligence.
+							Backend Development and Cloud Computing.
 						</span>{" "}
-						Hailing from Pasuruan, East Java, Indonesia, I&rsquo;m currently
+						Hailing from Jakarta, Indonesia, I&rsquo;m currently
 						pursuing my degree in{" "}
 						<span className="text-black font-medium">
 							Computer Science
 						</span>{" "}
 						at{" "}
 						<span className="text-black font-medium">
-							Universitas Negeri Malang.
+							President University.
 						</span>{" "}
-						My work bridges modern web technologies and intelligent systems—from
-						building responsive, scalable websites to exploring generative AI
-						and LLM-based solutions. Beyond development, I stay curious about
-						design and emerging technologies. In today&rsquo;s ever-changing
-						digital landscape, I believe being a
-						<span className="text-black font-medium"> lifelong learner</span> is
-						essential. Let&rsquo;s connect and explore the evolving intersection
-						of web and AI together!
+						My work focuses on building and deploying scalable solutions , from managing and developing critical public web portals for Dirjen AHU to rebuilding the web portal using Java (Spring Boot) and Next.js. I am also experienced in developing scalable backend APIs and managing cloud computing infrastructure on Google Cloud Platform (GCP). Eager to apply my skills and grow as a
+						<span className="text-black font-medium"> Full-Stack Developer </span> , I am ready for a dynamic and challenging tech environment. Let&rsquo;s and explore opportunities to build impactful technology solutions together!
 					</p>
 					<Card />
 				</motion.div>

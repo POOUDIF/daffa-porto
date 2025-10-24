@@ -15,7 +15,7 @@ export const metadata = {
 		"My name is Daffa, I'm a Full stack developer and I'm passionate about it. I'm graduate from President University .",
 
 	author: "Daffa Febrian Saputra",
-	siteUrl: "https://www.daffa.id",
+	siteUrl: "https://www.daffafs.my.id",
 	applicationName: "Daffa's",
 
 	keywords: [
@@ -32,7 +32,7 @@ export const metadata = {
 
 	openGraph: {
 		type: "website",
-		url: "https://www.alvalens.my.id",
+		url: "https://www.daffafs.my.id",
 		title: "Daffa's | Portofolio",
 		site_name: "Daffa's | Portofolio",
 		description: "My name is Daffa, This is my portofolio website.",

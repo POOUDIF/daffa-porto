@@ -96,23 +96,28 @@ const experiences = [
 	},
 	{
 		id: 7,
-		startDate: "Feb 2025",
+		startDate: "May 2025",
 		endDate: "Present",
-		company: "Joki Proyek",
-		position: "IT Implementation Specialist",
-		type: "Internship (Remote)",
-		location: "Malang, Indonesia",
+		company: "Lacak.IO",
+		position: "Backend Engineer",
+		type: "Full-time",
+		location: "Jakarta, Indonesia",
 		description:
-			"Developed and maintained current internal web applications using Next.js & and Laravel. Fixed bugs and implemented new features to enhance user experience. Collaborated with the team to ensure smooth deployment and functionality of applications.",
+			"As a Backend Engineer at Lacak.IO, I am responsible for the end-to-end management and development of critical public service applications for Ditjen AHU (including Ahu Online, Fiduciary, Citizenship, and Political Party) using Yii, Bootstrap, and MariaDB, while simultaneously resolving technical tickets and playing a key role in the platform's strategic rebuild using a modern stack of Java Spring Boot and Next.js.",
 		skills: [
 			"Next.js",
-			"Laravel",
+			"Spring Boot",
+			"Java",
+			"Yii",
+			"Bootstrap",
+			"MariaDB",
 			"MySQL",
 			"PostgreSQL",
-			"JavaScript",
-			"TypeScript",
-			"MongoDB",
+			"Jquery",
 			"Docker",
+			"Jenkins",
+			"Click-up",
+			"Agile",
 			"Teamwork",
 		],
 	},
@@ -152,11 +157,10 @@ function TimelineCard({ experience, index, isEven }) {
 			initial={{ opacity: 0, y: -20 }}
 			whileInView={{ opacity: 1, y: 0 }}
 			transition={{ delay: index * 0.15, duration: 0.5 }}
-			className={`flex ps-10 md:ps-0 ${
-				isEven
-					? "md:justify-center md:translate-x-68"
-					: "md:justify-center md:-translate-x-68"
-			} justify-center mb-4`}>
+			className={`flex ps-10 md:ps-0 ${isEven
+				? "md:justify-center md:translate-x-68"
+				: "md:justify-center md:-translate-x-68"
+				} justify-center mb-4`}>
 			<div className="bg-gradient-to-r from-black to-gray-800 text-white px-12 py-3 rounded-xl shadow-lg border border-gray-600 min-w-max">
 				<div className="flex items-center justify-center gap-6">
 					<div className="text-center">
@@ -186,9 +190,8 @@ function ExperienceCard({ experience, index, isEven }) {
 			initial={{ opacity: 0, y: 50 }}
 			whileInView={{ opacity: 1, y: 0 }}
 			transition={{ delay: index * 0.2, duration: 0.6 }}
-			className={`relative group ${
-				isEven ? "md:ml-auto md:pl-12" : "md:mr-auto md:pr-12"
-			} md:w-1/2`}>
+			className={`relative group ${isEven ? "md:ml-auto md:pl-12" : "md:mr-auto md:pr-12"
+				} md:w-1/2`}>
 			{" "}
 			{/* Card */}
 			<div
